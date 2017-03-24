@@ -1,2 +1,0 @@
-# degloman.github.io
-jekyll
