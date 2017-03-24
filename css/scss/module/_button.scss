@@ -1,0 +1,54 @@
+.btn{
+    border: 2px solid #e4e9f3;
+    border-radius: 4px;
+    color: #999;
+    padding: 6px 30px;
+    font-size: 14px;
+}
+
+.btn-primary{
+    background: #4fb5e7;
+    border: 2px solid #3aa5da;
+    color: #fff;
+    &.btn-ghost{
+        background: none;
+        color: #3aa5da
+    }
+}
+
+.btn-danger{
+    background: #cf4949;
+    border: 2px solid #b33131;
+    color: #fff;
+    &.btn-ghost{
+        background: none;
+        color: #b33131
+    }
+}
+
+.btn-success{
+    background: #86ce99;
+    border: 2px solid #69bd7f;
+    color: #fff;
+    &.btn-ghost{
+        background: none;
+        color: #69bd7f
+    }
+}
+
+.btn-warning{
+    background: #e3d474;
+    border: 2px solid #beb054;
+    color: #fff;
+    &.btn-ghost{
+        background: none;
+        color: #beb054
+    }
+}
+
+.btn-lg, 
+.btn-group-lg > .btn {
+    padding: 13px 40px;
+    font-size: 16px;
+}
+

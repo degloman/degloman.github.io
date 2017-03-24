@@ -1,0 +1,16 @@
+html, body{
+    font-family: 'Roboto'; //brick.a.ssl.fastly.net/Blogger+Sans:300,400,500,700,300i,400i,500i,700i
+    font-style: normal;
+    font-weight: normal;
+    color: #111111;
+}
+
+//sticky footer
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.content{
+    flex: 1;
+}

@@ -1,0 +1,42 @@
+.review{
+
+    &-image{
+
+    }
+
+    &-header{
+        margin-bottom: 15px;
+    }
+
+    &-name{
+        @extend .h5;
+        margin-bottom: 0px;
+    }
+    &-rating{
+        > *{
+            color:#88c799
+        }
+    }
+
+    &-description{
+        @extend p;
+        margin-bottom: 15px;
+    }
+
+    &-footer{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    
+    &-date{
+        margin-right: 30px;
+    }
+
+    &-reply{
+        
+    }
+
+    &-replies{
+        margin-left: 10%;
+    }
+}

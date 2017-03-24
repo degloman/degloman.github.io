@@ -1,0 +1,28 @@
+* + .headsup{
+    margin-top:30px;
+}
+.headsup{
+    padding: 60px;
+    background: #e4e9f3;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    &-primary{
+        background: #f3f5f9;
+    }
+
+    &-success{
+        
+    }
+
+    &-info{
+        
+    }
+
+    &-danger{
+        
+    }
+
+    &-warning{
+        
+    }
+}

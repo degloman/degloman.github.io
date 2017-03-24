@@ -1,0 +1,28 @@
+.pagination{
+    margin: 30px 0px;
+    li{
+        > a, 
+        > span{
+            border: 2px solid #e6ecf7;
+            margin-left: -2px;
+            color: #111;
+            font-size: 15px;
+            padding: 13px 20px;
+        }
+        &.active{
+            > a, 
+            > span{
+                background: #e6ecf7;
+                border: 2px solid #e6ecf7;
+                color: #111;
+            }
+        }
+        &:first-child{
+            > a, 
+            > span{
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
