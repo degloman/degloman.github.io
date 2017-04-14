@@ -1,9 +1,10 @@
 .btn{
-    border: 2px solid #e4e9f3;
+    border: 2px solid #d5dbe6;
     border-radius: 4px;
     color: #999;
-    padding: 6px 30px;
+    padding: 6px 20px;
     font-size: 14px;
+    height: 36px;
 }
 
 .btn-primary{
@@ -50,5 +51,21 @@
 .btn-group-lg > .btn {
     padding: 13px 40px;
     font-size: 16px;
+    height: 51px;
 }
+
+.btn-sm,
+.btn-group-sm > .btn{
+    padding: 6px 20px;
+    font-size: 14px;
+    height: 35px;
+}
+
+.btn-xs,
+.btn-group-xs > .btn{
+    padding: 3px 8px;
+    font-size: 11px;
+    height: 26px;
+}
+
 

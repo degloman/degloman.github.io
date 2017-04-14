@@ -1,6 +1,6 @@
 ---
-layout: information
-title: Catalog events
+layout: default
+title: information
 ---
 <h3>
 <a id="information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>information</h3>
@@ -44,3 +44,4 @@ title: Catalog events
 <strong>output:</strong> <code>(string) $output</code>
 </li>
 </ul>
+
